@@ -1,0 +1,96 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+	text-align: center;
+	background-image: url("https://wallpapercave.com/wp/wp9288093.jpg");
+}
+body h3{
+	color:crimson;
+	padding: 20px 20px 20px 20px;
+	background-image: url("https://media.tenor.com/FYYQtksbOc4AAAAC/system-system-failure.gif");
+	background-attachment: fixed;
+}
+.back{
+	width:100%;
+	padding-bottom: 30px;
+	background-color: blueviolet;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	
+	background-image: url("https://wallpapercave.com/wp/wp9288093.jpg");
+	background-attachment: fixed;
+	
+	gap:20px;
+	
+}
+.back>div{
+	width:20%;
+	text-align: center;
+	padding: 20px 10px 30px 10px;
+	margin-top: 20px;
+	background-color: white;
+
+
+}
+.box{
+	background-repeat: no-repeat;
+	background-position-x: right;
+	background-position-y: top;
+}
+.box1{
+	background-image: url("./images/microsoft-windows-logo-png-transparent\ \(1\).png");	
+}
+.box2{
+	background-image: url("./images/lin\ \(1\).jpg");
+}
+.box3{
+	background-image: url("./images/mac\ \(1\).png");
+}
+.box4{
+	background-image: url("./images/ubuntu\ \(1\).png");
+}
+.icons{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	gap:10px;
+	padding:35px 10px 0px 10px;
+	font-size: 20px;
+}
+#icon-under{
+	color:brown;
+	font-weight: bold;
+}
+#img{
+	border-radius: 50%;
+}
+@media only screen and (min-width:300px) and (max-width:900px){
+
+	.back{
+			flex-direction: column;
+	}
+	.back>div{
+		width:100%;	
+	}
+}
+/* @media only screen and (min-width:600px) and (max-width:900px){
+
+	.back{
+		
+		flex-direction: column;
+
+	}
+	.back>div{
+		width:100%;
+		
+	}
+	
+
+} */
+
+
+
